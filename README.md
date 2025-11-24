@@ -6,29 +6,31 @@ The app handles core library management processes, such as tracking of books, bo
 
 
 
+
+
 Key Salesforce features highlighted in this app include:
 
-🔷 Custom Objects and Fields
+1. Custom Objects and Fields (Book, Book\_Item, Author, Reader, Booking, Institution) 
 
-🔷 Record Types, Picklist Value Restriction
+2\. Record Types, Picklist Value Restriction
 
-🔷 Lightning Pages
+3\. Lightning Pages
 
-🔷 Dynamic Actions
+4\. Dynamic Actions
 
-🔷 Path, Path Celebration
+5\. Path, Path Celebration
 
-🔷 Validation Rules
+6\. Validation Rules
 
-🔷 Automation with Screen Flow and Scheduled Flow
+7\. Automation with Screen Flow and Scheduled Flow (Renew Booking, Suspend Reader Based on 3 Case Scenarios)
 
-🔷 Dashboard and Reports
+8\. Dashboard and Reports
+
+
 
 
 
 View screenshots of the custom app here: salesforce-book-lending-app/screenshots/
 
 Watch app walkthrough at https://youtu.be/OTQU8d0i0OE
-
-
 
