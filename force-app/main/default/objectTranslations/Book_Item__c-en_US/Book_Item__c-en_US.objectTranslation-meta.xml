@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Book Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Book Items</value>
+    </caseValues>
+    <layouts>
+        <layout>Book Copy Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Cover Pages --></label>
+            <section>Cover Pages</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Publication year must be numeric. --></errorMessage>
+        <name>Publication_Year_must_be_numeric</name>
+    </validationRules>
+</CustomObjectTranslation>

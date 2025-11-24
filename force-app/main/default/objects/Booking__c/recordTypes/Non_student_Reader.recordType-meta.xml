@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_student_Reader</fullName>
+    <active>true</active>
+    <label>Non-student Reader</label>
+    <picklistValues>
+        <picklist>Booking_Period1__c</picklist>
+        <values>
+            <fullName>14 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>21 Days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7 Days</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Booking_Status__c</picklist>
+        <values>
+            <fullName>Active - Week1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Not Returned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed - Returned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overdue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

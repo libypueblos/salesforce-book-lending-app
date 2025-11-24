@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reader_is_Not_Active</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ISPICKVAL( Reader__r.Status__c, &quot;Active&quot;))</errorConditionFormula>
+    <errorDisplayField>Reader__c</errorDisplayField>
+    <errorMessage>Reader must be in Active status.</errorMessage>
+</ValidationRule>

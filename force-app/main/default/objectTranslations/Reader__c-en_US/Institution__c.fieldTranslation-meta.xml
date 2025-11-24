@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Select affiliated school for students, and organization for non-students. --></help>
+    <label><!-- Institution --></label>
+    <name>Institution__c</name>
+    <relationshipLabel><!-- Readers --></relationshipLabel>
+</CustomFieldTranslation>

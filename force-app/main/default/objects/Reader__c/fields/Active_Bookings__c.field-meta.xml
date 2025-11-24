@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Bookings__c</fullName>
+    <label>Active Bookings</label>
+    <summaryFilterItems>
+        <field>Booking__c.Booking_Status__c</field>
+        <operation>notContain</operation>
+        <value>Closed</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Booking__c.Reader__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Booking Status --></label>
+    <name>Booking_Status__c</name>
+    <picklistValues>
+        <masterLabel>Active - Week1</masterLabel>
+        <translation><!-- Active - Week1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed - Not Returned</masterLabel>
+        <translation><!-- Closed - Not Returned --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Closed - Returned</masterLabel>
+        <translation><!-- Closed - Returned --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extended - Week 2</masterLabel>
+        <translation><!-- Extended - Week 2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Extended - Week 3</masterLabel>
+        <translation><!-- Extended - Week 3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Overdue</masterLabel>
+        <translation><!-- Overdue --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
